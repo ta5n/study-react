@@ -1,5 +1,5 @@
 import React from 'react';
-import arrow from './arrow.svg';
+// import arrow from './arrow.svg';
 
 console.log('ES6 Arrow is loaded!');
 
@@ -58,17 +58,21 @@ const user: IUser = {
     });
   },
 };
-user.printPlacesLived();
+// user.printPlacesLived();
 
 const multiplier = {
   numbers: [2, 3, 5],
+  multiplyBy: 2,
+  multiply() {
+    return this.numbers.map((number) => number * this.multiplyBy);
+  },
 };
-console.log('result :>> ', multiplier);
+console.log('result :>> ', multiplier.multiply());
 function ES6Arrow() {
   return (
     <div className="ES6Arrow">
       <header className="Arrow-Header">
-        <img src={arrow} alt="logo" className="Arrow-logo" width="5%" />
+        {/* <img src={arrow} alt="logo" className="Arrow-logo" width="5%" /> */}
         <p>
           Edit <code>src/playground/es6-arrow.tsx</code> and save to reload.
         </p>
