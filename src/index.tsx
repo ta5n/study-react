@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Count from './Count';
+// import Count from './Count';
 // import User from './User';
 import reportWebVitals from './reportWebVitals';
 // import ES6Arrow from './playground/es6-arrow';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Count />
+    <App />
+    {/* <Count /> */}
     {/* <User /> */}
     {/* <ES6Arrow /> */}
   </React.StrictMode>,
