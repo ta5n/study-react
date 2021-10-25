@@ -12,10 +12,10 @@ const onFormSubmit = (e: React.FormEvent) => {
   console.log('optionEntered :>> ', optionEntered);
 };
 
-const appData = {
+const appData: { title: string; subTitle: string; options: string[] } = {
   title: 'Indecision App',
-  subtitle: 'This is some info',
-  options: [3],
+  subTitle: 'This is some info',
+  options: [],
 };
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>{appData.title}</h1>
-        {appData.subtitle && <p>{appData.subtitle}</p>}
+        {appData.subTitle && <p>{appData.subTitle}</p>}
         {appData.options.length > 0 ? 'Here are your options' : 'No options'}
         <ol>
           <li>Item 1</li>

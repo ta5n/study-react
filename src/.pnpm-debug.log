@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: dev",
+      "code": "ENOENT",
+      "stack": "Error: not found: dev\n    at getNotFoundError (C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:48497:51)\n    at Function.whichSync [as sync] (C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:48574:13)\n    at getCommandAbsolutePathSync (C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:50139:44)\n    at default_1 (C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:50148:32)\n    at C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:129734:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "C:\\Users\\user\\projects\\study-react",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: dev",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: dev\n    at getNotFoundError (C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:48497:51)\n    at Function.whichSync [as sync] (C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:48574:13)\n    at getCommandAbsolutePathSync (C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:50139:44)\n    at default_1 (C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:50148:32)\n    at C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.19.0\\node_modules\\pnpm\\dist\\pnpm.cjs:129734:39"
+    }
+  }
+}
