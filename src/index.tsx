@@ -6,6 +6,7 @@ import App from './App';
 // import User from './User';
 import reportWebVitals from './reportWebVitals';
 // import ES6Arrow from './playground/es6-arrow';
+// import Visibility from './playground/toggle-visibility';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.render(
     {/* <Count /> */}
     {/* <User /> */}
     {/* <ES6Arrow /> */}
+    {/* <Visibility /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
