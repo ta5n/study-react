@@ -5,11 +5,46 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Edge",
+      "request": "launch",
+      "type": "pwa-msedge",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}",
+      "userDataDir": false
+    },
+    {
+      "name": "Chrome",
+      "request": "launch",
+      "type": "pwa-chrome",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}",
+      "userDataDir": false
+    },
+    {
+      "name": "Brave",
       "type": "chrome",
       "request": "launch",
-      "name": "Brave",
+      "runtimeExecutable": "C:\\Users\\user\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}",
+      "userDataDir": false
+    },
+    {
+      "name": "TS-node",
+      "type": "pwa-node",
+      "request": "launch",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\main.ts",
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+    },
+    {
+      "name": "***Chrome",
+      "type": "chrome",
+      "request": "launch",
       "url": "http://localhost:3000",
       "webRoot": "${workspaceFolder}/src",
+      "userDataDir": false,
       "sourceMapPathOverrides": {
         "webpack:///src/*": "${webroot}/*"
       }
