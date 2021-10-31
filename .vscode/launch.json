@@ -39,7 +39,7 @@
       "outFiles": ["${workspaceFolder}/**/*.js"]
     },
     {
-      "name": "***Chrome",
+      "name": "Brave mint",
       "type": "chrome",
       "request": "launch",
       "url": "http://localhost:3000",
@@ -47,7 +47,18 @@
       "userDataDir": false,
       "sourceMapPathOverrides": {
         "webpack:///src/*": "${webroot}/*"
-      }
+      },
+      /* "runtimeExecutable": "C:\\Users\\user\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe", */
+      "runtimeExecutable": "/usr/bin/brave-browser"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "TS-node",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\main.ts",
+      "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
 }
